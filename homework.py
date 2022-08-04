@@ -89,7 +89,7 @@ class SportsWalking(Training):
         """Получить количество затраченных калорий."""
         calories_per_min: float = (
             self.WLK_CAL_WEIGHT_MULTIPLIER_1 * self.weight_kg
-            + (self.get_mean_speed() ** 2 // self.height_cm)
+            + (self.get_mean_speed()**2 // self.height_cm)
             * self.WLK_CAL_WEIGHT_MULTIPLIER_2 * self.weight_kg
         )
         return calories_per_min * self.duration_h * self.MIN_IN_HR
