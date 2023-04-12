@@ -28,5 +28,28 @@
 
 ---
 
+### Запуск проекта:
+Скачать репозиторий
+
+```commandline
+git clone https://github.com/mikepavlos/hw_python_oop.git
+```
+
+Установить и активировать виртуальное окружение
+
+```commandline
+python -m venv venv
+source venv/scripts/activate
+```
+
+Установить зависимости
+
+```commandline
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
 ### Разработка модуля:
 Павлов Михаил https://github.com/mikepavlos
