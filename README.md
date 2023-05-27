@@ -52,4 +52,6 @@ pip install -r requirements.txt
 ---
 
 ### Разработка модуля:
-Павлов Михаил https://github.com/mikepavlos
+Павлов Михаил https://github.com/mikepavlos  
+email mike_pavlovsky@hotmail.com  
+telegram @miha1is
